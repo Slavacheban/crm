@@ -12,7 +12,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ProductEntity getOneById(Long id) {
-        return null;
+        return productRepository.getOne(id);
     }
 
     @Override

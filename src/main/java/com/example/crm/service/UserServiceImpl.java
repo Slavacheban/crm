@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserEntity getOneById(Long id) {
-        return null;
+        return userRepository.getOne(id);
     }
 
     @Override
