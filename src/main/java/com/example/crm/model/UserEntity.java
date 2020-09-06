@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
@@ -18,7 +18,7 @@ public class UserEntity extends BaseEntity {
     private String password;
     private String email;
     @Column(name = "phone_number")
-    private String phoneNimber;
+    private String phoneNumber;
 }
 
 
